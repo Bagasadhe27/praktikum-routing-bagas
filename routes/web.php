@@ -73,6 +73,7 @@ Route::prefix('admin')->name('admin.')->group(function() {
     })->name('items');
 });
 
-Route::get('bootstrap', function () {
-    return view('bootstrap');
-});
+Route::prefix('admin')->name('admin.')->group(function() {
+    Route::get('bootstrap', function () {
+        return view('bootstrap');
+    })->name('bootstrap');
