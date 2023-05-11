@@ -59,6 +59,11 @@
                 Admin Items
             </a>
         </div>
+         <h6 class="mt-4">Tugas</h6>
+        <div class="list-group list-group-numbered mt-4">
+            <a href="{{ route('admin.bootstrap') }}" class="list-group-item list-group-item-action">
+                Cloning Bootstrap
+            </a>
 
         {{-- Khusus kode program untuk Route Groups di sini --}}
     </div>
